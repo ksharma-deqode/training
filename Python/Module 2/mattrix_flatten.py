@@ -1,6 +1,5 @@
 rnc = input().split()
 
-
 r = int(rnc[0])
 c = int(rnc[1])
 
