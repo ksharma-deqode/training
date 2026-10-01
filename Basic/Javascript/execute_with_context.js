@@ -1,4 +1,4 @@
-function executeWithContext(obj, fn){
+function executeWithContext(obj, fn) {
     return fn.call(obj)
 }
 
@@ -7,10 +7,10 @@ const person = {
     age: 25
 }
 
-function hello(name){
+function hello(name) {
     return ("Hello,", this.name);
 }
 
-const output = executeWithContext(person,hello);
+const output = executeWithContext(person, hello);
 
 console.log(output)

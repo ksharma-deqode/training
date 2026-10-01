@@ -1,25 +1,25 @@
-class Animal{
-    constructor(name){
+class Animal {
+    constructor(name) {
         this.name = name;
     }
 }
 
-Animal.prototype.speak = function(){
+Animal.prototype.speak = function () {
     return "...";
 }
 
-class Dog extends Animal{
-    constructor(name){
+class Dog extends Animal {
+    constructor(name) {
         super(name);
         this.name = name;
     }
 }
 
-Dog.prototype.speak = function(){
+Dog.prototype.speak = function () {
     return "Woof";
 }
 
-function createDog(name){
+function createDog(name) {
     return new Dog(name);
 }
 
