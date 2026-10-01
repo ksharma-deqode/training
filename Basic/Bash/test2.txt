@@ -1,2 +1,0 @@
-I am overwritting to test2.txt
-I am appending to test2.txt
