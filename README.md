@@ -112,10 +112,10 @@ Module completion should be updated as each module is verified.
 
 **Status legend:**
 
-- `Completed` — All required module work has been completed.
+- `Completed` — All required module work has been submitted.
 - `In Progress` — The module is currently being worked on.
 - `Pending` — The module has not yet been completed.
-- `To Confirm` — Completion status has not yet been verified.
+- `Reviewed` — Approved by the admin .
 
 ## Conclusion
 
