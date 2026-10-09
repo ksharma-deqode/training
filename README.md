@@ -14,7 +14,7 @@ This section covers five foundational modules designed to build an understanding
 
 | No. | Module                 | Key Areas Covered                                                                      | Status    |
 | :-: | ---------------------- | -------------------------------------------------------------------------------------- | --------- |
-|  1  | Shell Scripting (BASH) | Shell commands, scripting fundamentals, variables, control structures, and automation  | Reviewed  |
+|  1  | Shell Scripting (BASH) | Shell commands, scripting fundamentals, variables, control structures, and automation  | Submiited |
 |  2  | Git                    | Version control, repositories, commits, branches, merging, and collaboration workflows | Submitted |
 |  3  | JavaScript             | Language fundamentals, variables, data types, functions, and programming concepts      | Submitted |
 |  4  | Web Fundamentals       | Web architecture, client-server communication, HTTP, and core web concepts             | Submitted |
@@ -26,7 +26,7 @@ This section focuses on Python programming, from fundamental syntax to practical
 
 | No. | Module                                    | Key Areas Covered                                                                                     | Status    |
 | :-: | ----------------------------------------- | ----------------------------------------------------------------------------------------------------- | --------- |
-|  1  | Python Basics                             | Syntax, variables, data types, operators, expressions, and basic input/output                         | Submitted |
+|  1  | Python Basics                             | Syntax, variables, data types, operators, expressions, and basic input/output                         | Reviewed  |
 |  2  | Control Flow                              | Conditional statements, loops, iteration, and flow-control statements                                 | Submitted |
 |  3  | Modules and Input/Output                  | Importing modules, organizing code, file handling, and input/output operations                        | Submitted |
 |  4  | Errors, Exceptions, and Classes           | Exception handling, custom exceptions, classes, objects, and object-oriented programming fundamentals | Submitted |
