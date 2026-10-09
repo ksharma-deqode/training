@@ -1,0 +1,46 @@
+{
+  "domain": "retail",
+  "role": "Senior Python Backend Engineer",
+  "company": "FlutterForge Storefronts",
+  "problem": "Legacy inventory systems experience race conditions during high-volume promotional sale events, causing overselling and inaccurate stock ledger calculations.",
+  "input_fields": [
+    {
+      "name": "sku_id",
+      "type": "str",
+      "description": "Unique identifier for product inventory unit."
+    },
+    {
+      "name": "requested_quantity",
+      "type": "int",
+      "description": "Number of units requested for order checkout."
+    },
+    {
+      "name": "store_location_id",
+      "type": "str",
+      "description": "Originating fulfillment center location."
+    }
+  ],
+  "output_fields": [
+    {
+      "name": "is_fulfilled",
+      "type": "bool",
+      "derivation_rule": "True if available stock >= requested_quantity, otherwise False."
+    },
+    {
+      "name": "remaining_stock",
+      "type": "int",
+      "derivation_rule": "Initial inventory minus requested_quantity if fulfilled."
+    },
+    {
+      "name": "penalty_fee",
+      "type": "float",
+      "derivation_rule": "Calculated surcharge applied if expedited stock transfer is required."
+    }
+  ],
+  "constraints": [
+    "Processing time per order transaction must not exceed 50 milliseconds.",
+    "Database state updates must enforce strict ACID compliance.",
+    "System must recover gracefully without inventory leakage during service restarts."
+  ],
+  "core_task": "Build a concurrent inventory reservation system capable of handling transactional updates, preventing overselling, and generating compliant audit records."
+}
